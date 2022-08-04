@@ -1,6 +1,6 @@
 import { ChangeEvent, useEffect, useState } from "react";
 
-import { compareObjectsByKey } from "./utils";
+import { compareObjectsByKey } from "../utils/utils";
 import { SortDirection, ItemKey, SortOption } from "../types/types";
 
 export interface SortProps<T> {
